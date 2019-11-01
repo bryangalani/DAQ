@@ -20,7 +20,7 @@ The left side is the graph which will plot the values of the input pins (2 pins 
 * The orange box is the clock value (5000).
 * The second purple box linked to Start Digital Edge is responsible for setting the trigger pin, in this case, **P1.1 / PF1**.
 * The blue box linked to Start Digital Edge is responsible for setting the trigger edge (Falling or Rising), in this case, **Falling Edge**.
-* The blue box linked to Analog 1D Wfm Nchan NSamp is responsible for the frame rate that will be plotted in the graph.
+* The blue box linked to Analog 1D Wfm Nchan NSamp is responsible for the frame rate that will be plotted in the graph and logged in the file.
 * Waveform Graph is the graph on the left side.
 * Write to Measurement File box is responsible for recording the acquired data in a file, in this case, .csv file. Double click this box to change file path and format.
 * The gray box around these boxes is a while loop.
