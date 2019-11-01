@@ -1,5 +1,5 @@
 # DAQ
-Data Acquisition using National Instruments DAQ
+Data Acquisition using National Instruments DAQ.
 
 We used a DAQ NI USB-6002 data acquisition system, which is a low-cost DAQ USB Device, manufactured by National Instruments. The equipment is used to store and process data acquired by, a current transducer and a voltage transducer using labVIEW.
 
@@ -23,5 +23,6 @@ The left side is the graph which will plot the values of the input pins (2 pins 
 * The blue box linked to Analog 1D Wfm Nchan NSamp is responsible for the frame rate that will be plotted in the graph.
 * Waveform Graph is the graph on the left side.
 * Write to Measurement File box is responsible for recording the acquired data in a file, in this case, .csv file. Double click this box to change file path and format.
+* The gray box around these boxes is a while loop.
 
 **Take a look to the manual attached to see the pinout of DAQ**
